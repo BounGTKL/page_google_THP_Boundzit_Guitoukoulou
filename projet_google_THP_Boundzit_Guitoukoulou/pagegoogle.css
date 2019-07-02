@@ -1,0 +1,170 @@
+
+/* Mise en page générale */
+html
+{
+  height: 100%;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  color: #454545;
+}
+
+header
+{
+  height: 80px;
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+	align-items: center;
+	font-size: 13px;
+	z-index: 2;
+}
+
+.principale
+{
+  height: 100%;
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: -60px;
+
+}
+
+footer
+{
+	background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 15%;
+  width: 100%;
+  margin-bottom: -170px
+}
+
+
+a
+{
+	color: #505050;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.menu
+{
+	margin: 10px;
+  margin: 10px;
+
+}
+.menu img
+{
+  height: 20px;
+}
+
+.logo-google img
+{
+  	height: 100px;
+  	margin-bottom: 20px;
+}
+
+.rechercher
+{
+  width: 500px;
+	padding: 5px 20px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #c4c4c4;
+}
+
+.rechercher: hover
+{
+	border: none;
+	margin-top: 2px;
+}
+
+.rechercher i
+{
+	display: flex;
+	align-items: center;
+}
+
+.rechercher i img
+{
+	height: 18px;
+
+
+}
+
+.rechercher input
+{
+	margin-left: 20px;
+	height: 30px;
+	border: none;
+	font-size: 16px;
+}
+
+.bouttons
+{
+  margin-top: 30px;
+}
+
+button
+{
+	background-color: #f2f2f2;
+	padding: 10px 18px;
+	margin: 0 3px;
+	border: none;
+	border-radius: 5px;
+	color: #505050;
+	font-size: 14px;
+
+}
+
+button:hover
+{
+	color: #252525;
+	border: 1px solid #b4b4b4;
+	background: linear-gradient(#f9f9f9, #f2f2f2);
+	padding: 9px 17px;
+	cursor: pointer;
+}
+
+.country
+{
+  	display: flex;
+  	align-items: center;
+  	border-top: 1px solid #cfcfcf;
+  	border-bottom: 1px solid #cfcfcf;
+  	height: 40px;
+  	padding: 0 30px;
+  	font-size: 14px;
+  }
+
+.bas-de-page2-lien
+{
+  	display: flex;
+  	justify-content: space-between;
+  	height: 40px;
+  	align-items: center;
+  	font-size: 13px;
+  	padding: 0 20px;
+  }
+
+.bas-de-page2-lien a
+{
+  	margin: 0 10px;
+}
